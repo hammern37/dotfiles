@@ -13,4 +13,4 @@
 
 dir="$HOME/.config/rofi/launchers"
 
-rofi -no-lazy-grab -show drun -modi drun -theme style
+rofi -no-lazy-grab -show $1 -modi $1 -theme style

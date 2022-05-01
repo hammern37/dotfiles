@@ -69,7 +69,7 @@ bspc rule -a Screenkey manage=off
 # Autostart
 #
 # Set display from arandr saved script
-sh ~/.screenlayout/layout.sh &
+#sh ~/.screenlayout/layout.sh &
 # Bar
 ~/.config/polybar/launch.sh &
 # Notifications

@@ -6,18 +6,18 @@
 super + Return
 	kitty
 
+#super + ctrl + d
+#	rofi -modi window -show window
 # program launcher
 super + d
-	~/.config/rofi/launcher.sh
+	~/.config/rofi/launcher.sh drun
 #	rofi -modi drun -show drun -line-padding 4 \
 #                -columns 2 -padding 50 -hide-scrollbar -terminal kitty \
 #                -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
 # show open window
-#super + ctrl + d
-#	rofi -modi drun -show window -line-padding 4 \
-#                -columns 2 -padding 50 -hide-scrollbar -terminal kitty \
-#                -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
+alt + Tab
+	~/.config/rofi/launcher.sh window
 
 # show ssh sesssions
 #  super + shift + d
