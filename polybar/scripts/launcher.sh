@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-FILE="$HOME/.config/polybar/forest/scripts/rofi/colors.rasi"
 
 ## random accent color
 #COLORS=('#EC7875' '#EC6798' '#BE78D1' '#75A4CD' '#00C7DF' '#00B19F' '#61C766' \
@@ -11,4 +10,4 @@ FILE="$HOME/.config/polybar/forest/scripts/rofi/colors.rasi"
 #sed -i -e "s/se: .*/se:   ${SE}FF;/g" $FILE
 
 #rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/scripts/rofi/launcher.rasi
-/home/matthias/.config/rofi/launchers/colorful/launcher.sh
+$HOME/.config/rofi/launcher.sh
